@@ -71,7 +71,6 @@ CREATE TABLE IF NOT EXISTS encounters (
                            PATIENT STRING,
                            ORGANIZATION	STRING,
                            PROVIDER STRING,
-                           DESCRIPTION STRING,
 			   PAYER STRING,
 			   ENCOUNTERCLASS STRING,
 			   CODE	STRING,
