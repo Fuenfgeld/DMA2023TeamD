@@ -4,9 +4,7 @@ DROP TABLE IF EXISTS conditions;
 
 DROP TABLE IF EXISTS medications; 
 
-DROP TABLE IF EXISTS procedures; 
-
-DROP TABLE IF EXISTS observations;
+DROP TABLE IF EXISTS encounters;
 
 CREATE TABLE IF NOT EXISTS patients (
                            Id STRING,
@@ -66,28 +64,23 @@ CREATE TABLE IF NOT EXISTS medications (
                               REFERENCES patients (Id)   
                        );
 
-CREATE TABLE IF NOT EXISTS procedures (
-                           DATE DATE,
+CREATE TABLE IF NOT EXISTS encounters (
+			   Id STRING,
+			   START DATE,
+                           STOP DATE,
                            PATIENT STRING,
-                           ENCOUNTER STRING,
-                           CODE STRING,
+                           ORGANIZATION	STRING,
+                           PROVIDER STRING,
                            DESCRIPTION STRING,
+			   PAYER STRING,
+			   ENCOUNTERCLASS STRING,
+			   CODE	STRING,
+			   DESCRIPTION STRING,
                            BASE_COST INTEGER,
+			   TOTAL_CLAIM_COST INTEGER,
+			   PAYER_COVERAGE INTEGER,
                            REASONCODE STRING,
                            REASONDESCRIPTION STRING,
-                           FOREIGN KEY (PATIENT)
-                              REFERENCES patients (Id) 
-                       );
-
-CREATE TABLE IF NOT EXISTS observations (
-                           DATE DATE,
-                           PATIENT STRING,
-                           ENCOUNTER STRING,
-                           CODE STRING,
-                           DESCRIPTION STRING,
-                           VALUE STRING,
-                           UNITS STRING,
-                           TYPE STRING,
                            FOREIGN KEY (PATIENT)
                               REFERENCES patients (Id) 
                        );
