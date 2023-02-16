@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS patients (
                            LON INTEGER,
                            HEALTHCARE_EXPENSES INTEGER,
                            HEALTHCARE_COVERAGE INTEGER,
-			   datenbankart STRING,
+			   DATENBANKART STRING,
                            PRIMARY KEY (Id)
                        );
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS conditions (
                            ENCOUNTER STRING,
                            CODE STRING,
                            DESCRIPTION STRING,
-			   datenbankart STRING,
+			   DATENBANKART STRING,
                            FOREIGN KEY (PATIENT)
                               REFERENCES patients (Id)
                        );
@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS medications (
                            TOTALCOST INTEGER,
                            REASONCODE STRING,
                            REASONDESCRIPTION STRING,
-			   datenbankart STRING,
+			   DATENBANKART STRING,
                            FOREIGN KEY (PATIENT)
                               REFERENCES patients (Id)   
                        );
@@ -83,7 +83,7 @@ CREATE TABLE IF NOT EXISTS encounters (
 			   PAYER_COVERAGE INTEGER,
                            REASONCODE STRING,
                            REASONDESCRIPTION STRING,
-			   datenbankart STRING,
+			   DATENBANKART STRING,
                            FOREIGN KEY (PATIENT)
                               REFERENCES patients (Id) 
                        );
