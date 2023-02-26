@@ -17,7 +17,7 @@ Ein vertiefter Einblick ist dem WIKI-Abschnitt [Projektmanagement](https://githu
 
 ### Hinweis zur Reproduzierbarkeit
 Die Rohdaten können über die Module Asthma, Covid-19 und Metabolic-Syndrom von [Synthea TM](https://synthetichealth.github.io/synthea/) bezogen werden. Anonymisierte Daten, auf denen die Auswertungen und das Prädiktionsmodell basieren, wurden in diesem Repositorium abgelegt ([anonym_rhcpat.csv](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/csv_data/anonym_rhcpat.csv)). 
-Weitere Hinweise zur verwendeten Systemumgebung und Tools ist der Seite [Systemumgebung und verwendete Tools](https://github.com/Fuenfgeld/DMA2023TeamD/wiki/Systemumgebung-und-verwendete-Tools)zu entnehmen.
+Weitere Hinweise zur verwendeten Systemumgebung und Tools sind der Seite [Systemumgebung und verwendete Tools](https://github.com/Fuenfgeld/DMA2023TeamD/wiki/Systemumgebung-und-verwendete-Tools) zu entnehmen.
 
 ### 📹 Videopräsentation des Projektes ReHealthCo
 
