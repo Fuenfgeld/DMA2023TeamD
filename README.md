@@ -13,7 +13,7 @@ Ein vertiefter Einblick ist dem WIKI-Abschnitt [Projektmanagement](https://githu
 📊 Die entstandenen Ergebnisse werden unter [Analysen und Ergebnisse](https://github.com/Fuenfgeld/DMA2023TeamD/wiki/Analysen-und-Ergebnisse) dargestellt.
 
 ### Überblick der Projektschritte und des Datenflusses
-![](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Diagramme/Datenfluss_V2.jpg)
+![](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Diagramme/Datenfluss_V2.png)
 
 ### Hinweis zur Reproduzierbarkeit
 Die Rohdaten können über die Module Asthma, Covid-19 und Metabolic-Syndrom von [Synthea TM](https://synthetichealth.github.io/synthea/) bezogen werden. Anonymisierte Daten, auf denen die Auswertungen und das Prädiktionsmodell basieren, wurden in diesem Repositorium abgelegt ([anonym_rhcpat.csv](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/csv_data/anonym_rhcpat.csv)). 
