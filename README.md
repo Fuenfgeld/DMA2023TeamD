@@ -15,6 +15,16 @@ Ein vertiefter Einblick ist dem WIKI-Abschnitt [Projektmanagement](https://githu
 ### Überblick der Projektschritte und des Datenflusses
 ![](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Diagramme/Datenfluss_V3_300.png)
 
+### Codeentwicklung
+1. 🟡 [Code zur Herstellung der Rohdatenbank](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_Rohdatenbank.ipynb)
+
+2. 🟠 [ETL-Prozess](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_ETL.ipynb)
+
+3. 🟣 [EDA-Prozess](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_EDA.ipynb)
+
+4. 🔵 [Vorhersagemodell-Prädiction](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_Prediction.ipynb)
+
+
 ### Hinweis zur Reproduzierbarkeit
 Die Rohdaten können über die Module Asthma, Covid-19 und Metabolic-Syndrom von [Synthea TM](https://synthetichealth.github.io/synthea/) bezogen werden. Anonymisierte Daten, auf denen die Auswertungen und das Prädiktionsmodell basieren, wurden in diesem Repositorium abgelegt ([anonym_rhcpat.csv](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/csv_data/anonym_rhcpat.csv)). 
 Weitere Hinweise zur verwendeten Systemumgebung und Tools sind dem Abschnitt [Systemumgebung und verwendete Tools](https://github.com/Fuenfgeld/DMA2023TeamD/wiki/Datenmanagementplan-%28basierend-auf-FAIR-Kriterien%29#33-datendokumentation-und-metadaten-erstellen) zu entnehmen.
