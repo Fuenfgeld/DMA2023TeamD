@@ -1,0 +1,40 @@
+```mermaid
+---
+title: Zusammenführung der Daten im ETL-Prozess
+---
+classDiagram 
+  anonym_rehealthco <|-- Asthma
+  anonym_rehealthco <|-- Covid19
+  anonym_rehealthco <|-- Metabolic_Syndrom_Disease
+
+  anonym_rhcpat <|-- anonym_rehealthco
+  
+  anonym_rhcpat : Faktentabelle - csv
+  anonym_rhcpat : Zusammenfassung benötigter Infos()
+  anonym_rhcpat : der Dimensionstabellen() 
+  anonym_rhcpat : aus anonym_rehealtco()
+
+  anonym_rehealthco : Relationen
+  anonym_rehealthco : rhcpat_df()
+  anonym_rehealthco : rhccon_df()
+  anonym_rehealthco : rhcmed_df()
+  anonym_rehealthco : rhcenc_df()
+  
+  Asthma : Relationen
+  Asthma : patients.csv()
+  Asthma : conditions.csv()
+  Asthma : medication.csv()
+  Asthma : encounters.csv()
+
+  Covid19 : Relationen 
+  Covid19 : patients.csv() 
+  Covid19 : conditions.csv()  
+  Covid19 : medication.csv() 
+  Covid19 : encounters.csv() 
+
+  Metabolic_Syndrom_Disease : Relationen 
+  Metabolic_Syndrom_Disease : patients.csv()
+  Metabolic_Syndrom_Disease : conditions.csv() 
+  Metabolic_Syndrom_Disease : medication.csv()
+  Metabolic_Syndrom_Disease : encounters.csv()
+```
