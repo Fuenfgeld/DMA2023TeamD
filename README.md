@@ -18,11 +18,11 @@ Ein vertiefter Einblick ist dem WIKI-Abschnitt [Projektmanagement](https://githu
 ### Codeentwicklung
 1. 🟡 [Code zur Herstellung der Rohdatenbank](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_Rohdatenbank.ipynb)
 
-2. 🟠 [ETL-Prozess](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_ETL.ipynb)
+2. 🟠 [Code zum ETL-Prozess](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_ETL.ipynb)
 
-3. 🟣 [EDA-Prozess](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_EDA.ipynb)
+3. 🟣 [Code zum EDA-Prozess](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_EDA.ipynb)
 
-4. 🔵 [Vorhersagemodell-Prädiction](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_Prediction.ipynb)
+4. 🔵 [Code zum Vorhersagemodell-Prädiction](https://github.com/Fuenfgeld/DMA2023TeamD/blob/main/Code/ReHealthCo_Prediction.ipynb)
 
 
 ### Hinweis zur Reproduzierbarkeit
