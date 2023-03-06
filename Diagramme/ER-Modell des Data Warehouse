@@ -1,0 +1,37 @@
+```mermaid
+---
+title: ER-Modell des Data Warehouse ReHealthCo, bestehend aus Dimensionstabellen
+---
+
+erDiagram
+  rhcpat_df |o--o{ rhccon_df : has
+  rhcpat_df |o--o{ rhcmed_df : has
+  rhcpat_df |o--o{ rhcenc_df : has
+ 
+  rhcpat_df {
+    integer RHC_PSEUDONYM 
+    integer GENDER_PAT
+    integer HEALTHCARE_EXPENSES_PAT
+    integer HEALTHCARE_COVERAGE_PAT
+    integer LEBENDIG
+    integer AGE
+  }
+
+  rhccon_df {
+    integer RHC_PSEUDONYM 
+    string CODE_CON
+    string DESC_CON
+    integer CONDITIONDAUER
+  }
+  
+  rhcmed_df {
+    integer RHC_PSEUDONYM
+    numeric TOTALCOST_MED
+  }
+
+rhcenc_df {
+    integer RHC_PSEUDONYM
+    string ENCOUNTERCLASS_ENC
+    integer BEHANDLUNGSDAUER
+  }
+```
