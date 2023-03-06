@@ -1,0 +1,22 @@
+```mermaid
+---
+title: Stern-Schema ReHealthCo
+---
+flowchart TD;
+
+subgraph Faktentabelle
+  A[(anonym_rhcpat)]
+end
+  
+subgraph Dimensionstabellen
+  B(rhcpat_df)
+  C(rhccon_df)
+  D(rhcmed_df)
+  E(rhcenc_df)
+end 
+ 
+  B-->A
+  C-->A
+  D-->A
+  E-->A
+```
